@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>decomidea</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html">DecoMidea</a></h1>
+        <nav>
+            <ul>
+                <li> <a href="./index.html"> Accueil </a></li>
+                <li> <a href="./produits.html"> Nos produits </a></li>
+                <li> <a href="#"> Idées inspirations </a></li>
+                <li> <a href="./apropos.html"> À propos </a></li>
+                <li> <a href="./contact.html"> Contact </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <br>
+    <br>
+    <main>
+        <h2>CONTACTEZ-NOUS !</h2><br>
+        <p class="text-success" id="success-message">Le message a été envoyé avec succès !</p>
+        <form method="GET" id="form">
+            <label class="form-label" for="firstName">Prénom</label>
+            <input class="form-control" type="text" name="firstName" id="firstName" placeholder="Votre prénom"
+                minlength="1" maxlength="50" required>
+            <label class="form-label" for="lastName">Nom</label>
+            <input class="form-control" type="text" name="lastName" id="lastName" placeholder="Votre nom" minlength="1"
+                maxlength="50" required>
+            <label class="form-label" for="email">E-mail</label>
+            <input class="form-control" type="email" name="email" id="email" placeholder="Votre adresse e-mail"
+                minlength="1" maxlength="50" required>
+            <label class="form-label" for="message">Message</label>
+            <textarea class="form-control" name="message" id="message" rows="8" placeholder="Votre message"
+                minlength="20" maxlength="500" required></textarea>
+            <input type="submit" value="Envoyer" class="btn btn-primary mt-3">
+        </form>
+    </main>
+    <br>
+    <br>
+    <button id="go-top" title="Go to top">↑</button>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <footer class="footer">
+        <p>Copyright Miray Besli 2024 © Tous droits réservés</p>
+    </footer>
+
+
+</body>
+
+</html>
