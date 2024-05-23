@@ -1,2 +1,0 @@
-# DECOMIDEA.com
-site deco
